@@ -1,3 +1,4 @@
+
 const tasks = [];
 let time = 0; 
 let timer = null;
@@ -8,6 +9,8 @@ const bAdd = document.querySelector('#bAdd');
 const idTask = document.querySelector('#idTask');
 const form = document.querySelector('#form');
 const taskName = document.querySelector('#time #taskName');
+renderTime();
+renderTask()
 
 form.addEventListener('submit', e => {
     e.preventDefault();

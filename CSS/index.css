@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+    --background: #000000;
+    /* --background: #fff; */
+    --font-color: #ffffff;
+    --border-color: #ff0000;
+    --background-button: #650101;
+    
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    font-family: 62%;
+}
+.pomodoro-header {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 1px var(--border-color);
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#app {
+    width: 800px;
+    height: 500px;
+    border: 5px solid var(--border-color);
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#time {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#value {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    background-color: var(--background);
+    color: var(--font-color);
+    margin-top: 0;
+
+}
+#taskName {
+    width: 400px;
+    max-height: 240px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    background-color: var(--background);
+    color: var(--font-color);
+    margin-top: 20px;
+}
+.tasks-container {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+#form {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+}
+#idTask {
+    width: 200px;
+    height: 30px;
+    margin: 15px 0 15px 0;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--font-color);
+}
+#bAdd {
+    width: 80px;
+    height: 30px;
+    margin: 15px 0 0 15px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    background-color: var(--background-button);
+    color: var(--font-color);
+    cursor: pointer;
+    border: solid 1px var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bAdd:hover {
+    background-color: var(--background);
+    
+}
+#tasks {
+    width: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.task {
+    width: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.completed {
+    width: 100px;
+    height: 30px;
+    border: var(--border-color);
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-button{
+    width: 80px;
+    height: 30px;
+    margin: 15px 0 0 15px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    background-color: var(--background-button);
+    color: var(--font-color);
+    border: solid 1px var(--font-color);
+    cursor: pointer;
+}
+.start-button:hover {
+    background-color: var(--background);
+}
+.done {
+    width: 80px;
+    height: 30px;
+    margin: 15px 0 0 15px;
+    font-size: 1.2rem;
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittle {
+    width: 200px;
+    height: 30px;
+    margin: 15px 0 0 15px;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--font-color);
+}
+
+
